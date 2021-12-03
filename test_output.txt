@@ -1,0 +1,77 @@
+
+// /jobs/ Get
+[
+  {
+    "id": 1,
+    "name": "first_test_job",
+    "data": [
+      1,
+      2,
+      3
+    ],
+    "status": "processed",
+    "result": "123"
+  },
+  {
+    "id": 2,
+    "name": "second_test_job",
+    "data": [
+      1,
+      2,
+      3
+    ],
+    "status": "pending",
+    "result": null
+  }
+]
+
+// GET /jobs/pending
+
+[
+  {
+    "id": 2,
+    "name": "second_test_job",
+    "data": [
+      1,
+      2,
+      3
+    ],
+    "status": "pending",
+    "result": null
+  }
+]
+
+// GET /jobs/processed/
+
+[
+  {
+    "id": 1,
+    "name": "first_test_job",
+    "data": [
+      1,
+      2,
+      3
+    ],
+    "status": "processed",
+    "result": "123"
+  }
+]
+
+// POST /jobs/
+{
+  "id": 3,
+  "name": "third job",
+  "data": [
+    55,
+    23,
+    3
+  ],
+  "status": "pending",
+  "result": null
+}
+
+// POST /jobs/ Unauthorized
+{
+  "error": "Unauthorized to access this resource",
+  "status": 401
+}

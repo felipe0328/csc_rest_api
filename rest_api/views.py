@@ -37,4 +37,7 @@ class Jobs(APIView):
                 created_object = Job.objects.get(pk=new_job.data["id"])
                 serialized_object = ListJobSerializer(created_object)
                 return Response(serialized_object.data, status=status.HTTP_201_CREATED)
-        return Response(status.HTTP_401_UNAUTHORIZED, status=status.HTTP_401_UNAUTHORIZED)
+        return Response(
+            {"error": "Unauthorized to access this resource", "status": status.HTTP_401_UNAUTHORIZED},
+            status=status.HTTP_401_UNAUTHORIZED
+        )
