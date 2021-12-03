@@ -1,7 +1,8 @@
 #Rest API programming test
 
 This project is created using Django Framework, 
-and using pipenv as a package versioning and environment isolator
+and using pipenv as a package versioning and environment isolator,
+the project requirements can be found in TestDescription.docx
 
 ##How To Run:
 
