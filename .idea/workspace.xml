@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f8d94b-23eb-4232-86c4-f5dbd260c24e" name="Changes" comment="OFP - Creating basic system using pipenv">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="73f8d94b-23eb-4232-86c4-f5dbd260c24e" name="Changes" comment="OFP - Modifing view to return correct error data, and adding test_output.txt">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/csc_rest_api/tests" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -56,7 +56,11 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\felii\Documents\Projects\CSC Programming Test\csc_rest_api\tests" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\felii\Documents\Projects\CSC Programming Test\rest_api\tests" />
       <recent name="C:\Users\felii\Documents\Projects\CSC Programming Test\rest_api" />
       <recent name="C:\Users\felii\Documents\Projects\CSC Programming Test" />
     </key>
@@ -93,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638487672774</updated>
-      <workItem from="1638487674229" duration="24694000" />
+      <workItem from="1638487674229" duration="32426000" />
     </task>
     <task id="LOCAL-00001" summary="OFP - Creating basic system using pipenv">
       <created>1638513335246</created>
@@ -102,7 +106,49 @@
       <option name="project" value="LOCAL" />
       <updated>1638513335246</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="OFP - Creating app, and also adding basic readme">
+      <created>1638513551202</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638513551202</updated>
+    </task>
+    <task id="LOCAL-00003" summary="OFP - Creating unit tests">
+      <created>1638535219823</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638535219823</updated>
+    </task>
+    <task id="LOCAL-00004" summary="OFP - updating gitignore">
+      <created>1638535382826</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638535382826</updated>
+    </task>
+    <task id="LOCAL-00005" summary="OFP - Modifing readme">
+      <created>1638536129499</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638536129499</updated>
+    </task>
+    <task id="LOCAL-00006" summary="OFP - Modifing readme and adding design document">
+      <created>1638536221165</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638536221165</updated>
+    </task>
+    <task id="LOCAL-00007" summary="OFP - Modifing view to return correct error data, and adding test_output.txt">
+      <created>1638538570896</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638538570896</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +167,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="OFP - Creating basic system using pipenv" />
-    <option name="LAST_COMMIT_MESSAGE" value="OFP - Creating basic system using pipenv" />
+    <MESSAGE value="OFP - Creating app, and also adding basic readme" />
+    <MESSAGE value="OFP - Creating unit tests" />
+    <MESSAGE value="OFP - updating gitignore" />
+    <MESSAGE value="OFP - Modifing readme" />
+    <MESSAGE value="OFP - Modifing readme and adding design document" />
+    <MESSAGE value="OFP - Modifing view to return correct error data, and adding test_output.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="OFP - Modifing view to return correct error data, and adding test_output.txt" />
   </component>
 </project>
