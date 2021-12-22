@@ -17,9 +17,9 @@ the project requirements can be found in TestDescription.docx
 
 ## Exposed Endpoints
 
-| Type | Endpoint       | Needs Auth | Description            |
-|------|----------------|------------|------------------------|
-|  Get | jobs/          | No         | list all existing jobs |
-|  Get | jobs/\<status> | No         | get jobs by status     |
-|  Get | jobs/          | Yes        | creates new job        |
+| Type  | Endpoint       | Needs Auth | Description            |
+|------ |----------------|------------|------------------------|
+|  Get  | jobs/          | No         | list all existing jobs |
+|  Get  | jobs/\<status> | No         | get jobs by status     |
+|  Post | jobs/          | Yes        | creates new job        |
 
