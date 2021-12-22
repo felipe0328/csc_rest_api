@@ -1,10 +1,10 @@
-#Rest API programming test
+# Rest API programming test
 
 This project is created using Django Framework, 
 and using pipenv as a package versioning and environment isolator,
 the project requirements can be found in TestDescription.docx
 
-##How To Run:
+## How To Run:
 
 `pipenv install` -> To Install project requirements
 
@@ -15,7 +15,7 @@ the project requirements can be found in TestDescription.docx
 `pipenv shell python manage.py test` -> To Run unit tests
 
 
-##Exposed Endpoints
+## Exposed Endpoints
 
 | Type  | Endpoint       | Needs Auth | Description            |
 |------ |----------------|------------|------------------------|
